@@ -1,5 +1,8 @@
 # Societal Clustering
 
+## before you read anything, know that this won't be done for a little while. 
+
+
 This is an app that will attempt to algorithmically generate personalities using social media aggregation and social analytics.
 
 With the probabilities we derive from the content of social media networks like Instagram, Twitter, and Tumblr, we can use the data as a sample set for a particular region and determine what the average person is like in any given location based on particular interests.
