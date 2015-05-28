@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Societal Clustering</title>
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}" />
+
+    <!-- Import Some Google Fonts-->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Lets import all of our custom sass files from our server -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/foundation.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}"/>
+
+    <!-- Importing our custom CSS here -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesheet.css') }}"/>
+
+    <!--
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/ie.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/print.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/screen.css') }}"/>
+    -->
+
+    <!-- Import all scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vendor/modernizr.js') }}"></script>
+
+
+    <script src="{{ url_for('static', filename='js/vendor/jquery.cookie.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vendor/fastclick.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vendor/placeholder.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/foundation.min.js') }}"></script>
+
+    <!-- Below are sample files for you to inject JavaScript -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </head>
+  <body>
+    <!-- TODO, Build the app. -->
+    {% block content %}
+    {% endblock %}
+    <hr>
+    <p> This works... right?</p>
+    <script>
+      $(document).foundation();
+    </script>
+
+  </body>
+</html>
