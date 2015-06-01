@@ -1,6 +1,6 @@
 # Societal Clustering
 
-## before you read anything, know that this won't be done for a little while. 
+## before you read anything, know that this won't be done for a little while.
 
 
 This is an app that will attempt to algorithmically generate personalities using social media aggregation and social analytics.
@@ -33,17 +33,16 @@ So we can give our data aggregate to Watson and hopefully find some useful infor
     In addition, the image processing is done by watson's
 
 ## Running locally
-1. Copy the credentials from your `personality-insights-service` service in Bluemix to `server.py`, you can get them by binding the service to an app and just looking at the credentials:
 
-  You need to copy `username`, `password` and `url`.
+1. Install [Python 2.7.9 or later](https://www.python.org/downloads/)
 
-  2. Install [Python 2.7.9 or later](https://www.python.org/downloads/)
-  3. Go to the project folder in a terminal and run:
-    `pip install -r requirements.txt`
-    4. Start the application
-      `python server.py`
-      5. Go to
-        `http://localhost:3000`
+2. Copy all of your credentials into a file called `secrets.py`
+
+3. Go to the project folder in a terminal and run: `pip install -r requirements.txt`
+
+4. Start the application `python app.py`
+
+5. Go to `http://localhost:3000`
 
 
 ## Troubleshooting

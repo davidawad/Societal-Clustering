@@ -1,11 +1,10 @@
-Twitter_consumer =
-Twitter_consumer_secret =
-Twitter_access_token_key =
-Twitter_access_token_secret =
-Instagram_client_id=
-Instagram_client_secret=
-Tumblr_consumer =
-Tumblrr_consumer_secret =
-Tumblr_access_token_key =
-Tumblr_access_token_secret =
-
+Twitter_consumer = 'alskjflkflasdlkfa'
+Twitter_consumer_secret = 'alskjflkflasdlkfa'
+Twitter_access_token_key = 'alskjflkflasdlkfa'
+Twitter_access_token_secret = 'alskjflkflasdlkfa'
+Instagram_client_id = 'alskjflkflasdlkfa'
+Instagram_client_secret = 'alskjflkflasdlkfa'
+Tumblr_consumer = 'alskjflkflasdlkfa'
+Tumblrr_consumer_secret = 'alskjflkflasdlkfa'
+Tumblr_access_token_key = 'alskjflkflasdlkfa'
+Tumblr_access_token_secret = 'alskjflkflasdlkfa'

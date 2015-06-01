@@ -30,8 +30,15 @@ def home():
         buff = f.read
     return render_template('index.html', buff=buff)
 
-def BigBoom():
-    # global buffer of aggregate data to be processed.
+@app.route('/generate', methods='post')
+def grabinfo():
+    twitter = request.form['twitter']
+    BigBoom()
+    return render_template('results',)
+
+
+def BigBoom(twitterUname, fbUname, fbPass, ):
+    # buffer of aggregate data to be processed.
     aggregate = ""
 
     # grab tweets for any given area
