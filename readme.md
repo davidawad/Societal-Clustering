@@ -11,11 +11,15 @@ We can aggregate location specific data for any given area and derive a large sa
 
 So we have coverage all text, and photos ever to be posted unto the internet.  
 
+<!--
+
 The IBM Watson [Personality Insights][service_url] service uses linguistic analysis to extract cognitive and social characteristics from input text such as email, text messages, tweets, forum posts, and more. By deriving cognitive and social preferences, the service helps users to understand, connect to, and communicate with other people on a more personalized level.
 
 Our Image processing also comes conveniently from Watson's [Visual Recognition](https://github.com/watson-developer-cloud/visual-recognition-nodejs) service. This will get us the most statistically likely string that is inside of the photo.  
 
 So we can give our data aggregate to Watson and hopefully find some useful information about the contents.
+
+-->
 
 ## The Goal
   If we aggregate this data we have statistical analysis of the average personality of someone in any of these particular areas. With statistics for reactions based on any given emotions, and the ability to "understand" whether a word is positive or negative, we can eventually come up with statistical models for the most likely reactions to certain events.

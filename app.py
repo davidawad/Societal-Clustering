@@ -32,8 +32,8 @@ def home():
 
 @app.route('/generate', methods='post')
 def grabinfo():
-    twitter = request.form['twitter']
-    BigBoom()
+    handle = request.form['twitter']
+    BigBoom(twitter, fbUname, fbPass, )
     return render_template('results',)
 
 
